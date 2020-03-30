@@ -1,0 +1,146 @@
+$main: #662D91;
+$ff: arial;
+$bg: #454444;
+
+
+
+ body {
+    background-color: $bg;
+} 
+
+.logo{
+  border-bottom: 2px solid black;
+}
+
+.logo img{
+  width: 30%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.video{
+    margin-top: 10px;
+}
+
+.videoPlay{
+    margin: 0 auto;
+    display: block;
+    width: 85%;
+}
+
+#zoomSection{
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.buttonSection{
+text-align: center;
+margin-top: 20px;
+}
+
+button#zoomOut{
+    width: 75px;
+    height: 75px;
+    font-size: 15pt;
+    text-align: center;
+}
+
+button#zoomIn{
+    width: 75px;
+    height: 75px;
+    font-size: 15pt;
+    text-align: center;
+}
+
+@media only screen and (min-device-width: 768px ){
+
+    .logo{
+        border-bottom: 2px solid black;
+      }
+      
+      .logo img{
+        width: 15%;
+        padding-top: 10px;
+        padding-left: 10px;
+      }
+      
+      .video{
+          margin-top: 10px;
+      }
+      
+      .videoPlay{
+          margin: 0 auto;
+          display: block;
+          width: 85%;
+      }
+      
+      #zoomSection{
+          transform: scale(1);
+          transition: transform 0.2s ease-in-out;
+      }
+      
+      .buttonSection{
+      text-align: center;
+      margin-top: 20px;
+      }
+      
+      button#zoomOut{
+          width: 75px;
+          height: 75px;
+          font-size: 15pt;
+          text-align: center;
+      }
+      
+      button#zoomIn{
+          width: 75px;
+          height: 75px;
+          font-size: 15pt;
+          text-align: center;
+      }
+}
+
+@media only screen and (min-device-width: 900px ){
+    .logo{
+        border-bottom: 2px solid black;
+      }
+      
+      .logo img{
+        width: 10%;
+        padding-top: 10px;
+        padding-left: 10px;
+      }
+      
+      .video{
+          margin-top: 10px;
+      }
+      
+      .videoPlay{
+          margin: 0 auto;
+          display: block;
+          width: 80%;
+      }
+      
+      #zoomSection{
+          transform: scale(1);
+          transition: transform 0.2s ease-in-out;
+      }
+      
+      .buttonSection{
+      text-align: center;
+      margin-top: 20px;
+      }
+      
+      button#zoomOut{
+          width: 75px;
+          height: 75px;
+          font-size: 15pt;
+          text-align: center;
+      }
+      
+      button#zoomIn{
+          width: 75px;
+          height: 75px;
+          font-size: 15pt;
+          text-align: center;
+      }
+}
