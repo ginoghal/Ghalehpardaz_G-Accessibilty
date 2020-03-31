@@ -21,7 +21,7 @@
 
  function showMusic(){
      contentSection.innerHTML = "";
-     contentSection.innerHTML =  '<h3>Queen - I want it all </h3> <iframe src="https://www.youtube.com/embed/Odkv4aE3pTI" frameborder="0" allowfullscreen></iframe>';
+     contentSection.innerHTML =  '<h3>Queen - I want it all </h3> <iframe src="https://www.youtube.com/embed/7JB8xizXnT0" frameborder="0" allowfullscreen></iframe>';
  }
 
  function showMovie(){
