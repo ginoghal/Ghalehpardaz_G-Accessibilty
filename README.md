@@ -10,6 +10,12 @@ MMED 5006 - Multimedia Authoring 4
 
 The objective of this assignment was to make a Roku app that was easily accessible for all.
 
+To start the application:
+- Simply download the Git Repo to your computer
+- Open it in your code editor of choice and make it Live!
+- Enjoy the content of the site.
+
+
 Some of the features added to enable this:
 
 - Adding CC (Close Caption) functionality to both the Movies and TV Show videos (for Hard of Hearing).
